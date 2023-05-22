@@ -1,0 +1,118 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: 16px;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.title {
+  text-align: center;
+}
+
+.block {
+  border: 1px solid #000;
+}
+
+/* header */
+
+.header__block {
+  display: flex;
+  margin-top: 3rem;
+}
+.header__left {
+}
+.header__photo {
+  border: 1px solid #000;
+}
+.header__right {
+  margin-left: 2rem;
+}
+.header__info {
+  margin-bottom: 1rem;
+}
+
+/* header */
+
+/* purpose */
+
+.purpose {
+}
+
+.purpose__block {
+}
+
+.purpose__title {
+}
+.purpose__list {
+}
+.purpose__item {
+  margin-bottom: 0.3rem;
+}
+
+.purpose__item:last-child {
+  margin-bottom: 3rem;
+}
+
+/* purpose */
+
+/* study */
+
+.study {
+}
+
+.study__block {
+}
+
+.study__list {
+  margin: 2rem 40% 0 35%;
+}
+.study__item {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5;
+}
+
+.study__item:last-child {
+  margin-bottom: 3rem;
+}
+
+/* study */
+
+/* courses */
+
+.courses {
+}
+
+.courses__table {
+}
+
+.courses__list {
+  list-style: none;
+}
+.courses__item {
+  display: flex;
+  line-height: 2;
+  justify-content: space-around;
+}
+.courses__item--title {
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+.courses__name {
+}
+.courses__author {
+}
+.courses__estimation {
+}
+
+/* courses */
