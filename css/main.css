@@ -7,6 +7,10 @@ section {
   margin-bottom: 2rem;
 }
 
+a {
+  color: #000;
+}
+
 .container {
   max-width: 1170px;
   margin-left: auto;
@@ -90,29 +94,50 @@ section {
 
 /* courses */
 
-.courses {
-}
-
-.courses__table {
-}
-
 .courses__list {
-  list-style: none;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 0;
 }
+
+
 .courses__item {
   display: flex;
-  line-height: 2;
   justify-content: space-around;
+  align-items: center;
+  padding-bottom: .7rem;
+  padding-top: .7rem; 
 }
-.courses__item--title {
-  font-weight: bold;
+
+.courses__item--bb {
   border-bottom: 1px solid #000;
-}
-.courses__name {
-}
-.courses__author {
-}
-.courses__estimation {
+  font-weight: bold;
 }
 
 /* courses */
+
+/* .contacts */
+
+.contacts {
+}
+.contacts__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 5rem;
+
+}
+.contacts__item {
+  text-decoration: none;
+}
+.contacts__link {
+  text-decoration: none;  
+  text-align: center;
+
+}
+.contacts__desc {
+}
+
+/* .contacts */
